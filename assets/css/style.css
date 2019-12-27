@@ -70,6 +70,7 @@ p {
 .content{
     clear: both;
     overflow: auto;
+    background-image: url(herringbone.png);
 }
 .image{
     margin: 30px;
@@ -83,7 +84,7 @@ p {
     margin: 30px;
     height: 200px;
     width: 200px;
-    float: right;
+    float: left;
 }
 .image2{
     background: url(../images/Placeholder2.jpeg);

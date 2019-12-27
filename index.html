@@ -7,14 +7,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<style>
-    body{
-        background-image: "herringbone.png";
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-</style>
 <body>
     <div class="header">
         <header>
@@ -22,13 +14,19 @@
                 <div id="header"></div>Greg Schuman
             </h1>
         </header>
-        <nav>
-            <ul>
-                <li class="links"><a href="#">Portfolio</a></li>
-                <li class="links"><a href="#">About</a></li>
-                <li class="links"><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Portfolio</a>
+                <a class="nav-item nav-link" href="#">Contact</a>
+              </div>
+            </div>
+          </nav>
     </div>
 
     <div class="container">
@@ -56,10 +54,10 @@
         <!--Placeholder Images-->
         <div class="placeholders">
             <div class="image image1">
-                <div class="imageText"><h4>PlaceholderText</h4></div>
+                <div class="imageText"><h4>About</h4></div>
             </div>
             <div class="image image2">
-                <div class="imageText"><h4>PlaceholderText2</h4></div>
+                <div class="imageText"><h4>Portfolio</h4></div>
             </div>
             <div class="image image3">
                 <div class="imageText"><h4>PlaceholderText3</h4></div>
