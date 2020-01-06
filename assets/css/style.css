@@ -98,14 +98,14 @@ p {
     margin: 30px;
     height: 200px;
     width: 200px;
-    float: right;
+    float: left;
 }
 .image4{
     background: url(../images/Placeholder4.jpeg);
     margin: 30px;
     height: 200px;
     width: 200px;
-    float: right;
+    float: left;
 }
 .imageText{
     padding-top: 50%;
@@ -117,10 +117,14 @@ p {
 }
 
 footer{
+    clear: left;
  border-top: 8px solid;
  color: #ffffff;
  background-color: #666666;
  text-align: left;
  display: fixed; 
 bottom: 0px;
+position: fixed;
+width: 100%;
+text-align: center;
 }
