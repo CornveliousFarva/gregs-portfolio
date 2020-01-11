@@ -1,14 +1,13 @@
 *{
     box-sizing: border-box;
-
+    max-width: 100%;
 }
-/* header */
+
 header {
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-color: #cccccc;
-    height: 60px;
     margin-bottom: 40px;
     float: left;
     width: 25%;
@@ -24,14 +23,16 @@ header a {
     clear: both;
     overflow: auto;
 }
-/* nav bar */
 nav{
     float: right;
     width: 74%;
 }
 
 .contentHolder{
-    width: 400px;
+    width: 750px;
+    background-color: green;
+    color: orange;
+    overflow-y: auto;
 }
 .links{
     float: left;
@@ -39,18 +40,22 @@ nav{
     list-style-type: none;
 }
 
+
+#contact{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: max-content;
+}
+
 #profile-pic {
     float: left; 
-    margin-bottom: 30px;
+    margin-top: 15px;
     transform: rotate(90deg);
 }
 
 p {
     font-family:Arial, Helvetica, sans-serif;
     text-align: left;
-    background-color: #ffffff;
-    border-color: #cccccc;
-    margin: auto;
 }
 
 .placeholderHolder{
@@ -67,11 +72,6 @@ p {
     width: 74%;
 }
 
-.content{
-    clear: both;
-    overflow: auto;
-    background-image: url(herringbone.png);
-}
 .image{
     margin: 30px;
     height: 100px;
@@ -115,6 +115,34 @@ p {
     background-color: #4aaaa5;
     color: #ffffff;
 }
+
+.Name{
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.email{
+    background-color: #4aaaa5;
+    color: #ffffff
+}
+
+.Message{
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.submit{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: 40px;
+    border: 10px
+}
+
+.buffer{
+    margin: 15px;
+    color: #4aaaa5;
+}
+    
 
 footer{
     clear: left;
