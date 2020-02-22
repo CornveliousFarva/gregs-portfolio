@@ -30,7 +30,7 @@ nav{
 
 .contentHolder{
     width: 750px;
-    background-color: wheat;
+    background-color: darkgrey;
     color: red;
     overflow-y: auto;
 }
