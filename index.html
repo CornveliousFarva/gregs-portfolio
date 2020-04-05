@@ -1,61 +1,160 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
-    <meta charset=UTF-8;>
-    <meta name="viewport" content="width=1.0, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Greg Schuman's Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <title>Greg Schuman</title>
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
+    
+        <link rel="stylesheet" href="assets/css/style.css">
+    
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      </head>
 
-<body class= "intro">
-    <div class="header">
-        <header>
-            <h1>
-                <div id="header"></div>Greg Schuman
-            </h1>
-        </header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
-              </div>
+<body>
+    
+    <div class="container-fluid">
+
+        <div class="row text-center row-header">
+          <div class="col-xs-12">
+            <div class="header-col">
+              <img src="images/portfolioPic.jpg" alt="profile pic" class="img-responsive profile-pic center-block">
+              <h1>Greg Schuman</h1>
+              <h2>I code and I know things. Always pursuing excellence over perfection.</h2>
+              <a href="mailto:greg.c.schuman@gmail.com" class="email"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>greg.c.schuman@gmail.com</a>
             </div>
-          </nav>
+            <div>
+               <i class="fab fa-linkedin"><a href="www.linkedin.com/in/greg-schuman"></a></i>
+              <i class="fab fa-github-square"><a href="https://github.com/CornveliousFarva"></a></i>
+            </div>
+          </div>
+        </div>
+    <!-- About Me-->
+    <section style="margin-top: 0">
+        <div class="row">
+            <div class="col xs-12">
+                <h1 class="text-center section-heading">About Me</h1>
+                <p>An aspiring Full-Stack Developer leveraging a background in inventory management to analyze how to develop user-friendly software, able to communicate effectively with superiors and those under me while also utilizing the skills I have developed in confidence, problem solving, critical thinking, and perseverance. Currently working toward a certificate in Full-Stack Development from University of California, San Diego with newly learned skills in the MERN stack as well as Python. Motivated to bring a unique thought process to problem-solving and anticipating problems that may not have been caught by others. I have two goals for each project that I am part of: to provide a positive experience to users and to make each project functional and easy-to-understand for all.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Projects -->
+  <section style="margin-top:0">
+
+    <div class="row">
+      <div class="col xs-12">
+        <h1 class="text-center section-heading">Projects</h1>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-sm-8 col-sm-offset-2">
         
+        <div class="col-sm-3">
+          <h3>Password Generator</h3>
+          <p>A simple web app using JavaScript to generate a pssword and copy it to a clipboard,enabling security</p><a href="https://cornveliousfarva.github.io/password-generator/">Check It Out</a>
+        </div>
+
+        <div class="col-sm-3">
+            <h3>Coding Quiz</h3>
+            <p>A simple web app using JavaScript to make a quiz, complete with score tracking and a timer that marks a question as incorrect if not answered within the given time.</p><a href="https://cornveliousfarva.github.io/coding-quiz/">Check It Out</a>
+          </div>
+
+        <div class="col-sm-3">
+            <h3>Note Taker</h3>
+            <p>An app used to take notes using HTML, CSS, JavaScript, and nodeJS</p>
+            <p><a href="https://cornveliousfarva.github.io/note-taker/">Check It Out</a></p>
+          </div>
+
+        <div class="col-sm-3">
+            <h3>Eat-Da-Burger</h3>
+            <p>A fun app designed to show off use of handlebars and mySQL</p>
+            <p><a href="https://cornveliousfarva.github.io/burger/">Check It Out</a></p>
+          </div>
+
+      </div>
+
     </div>
 
-    <main class="container">
-        <div class="content">
-            <div class="left">
-                <img id="portfolio-pic" height="auto" width="100%" src="portfolioPic.jpeg" alt="portfolio image">
+    <!-- Technical Proiciencies-->
+    <section>
+        <div class="flex flex-50-gt-sm waypoint bars-wrap animated slide-in-right" data-animation="slide-in-right">
+            <h1 class=>Technical Proficiencies</h1>
+            <div class="bar flex">
+              <div class="bar fill" style="width:90%">
+                <div class="tag bold flex">CSS</div>
+              </div>
+              <span>90%</span>
             </div>
-            <!--About Me-->
-            <div class="right">
-                <div class="contentHolder">
-                    <h3>Pursuing Execellence</h3>
-                    <p>My name's Greg Schuman and I am an aspiring Full-Stack Developer leveraging a background in inventory management to analyze how to develop user-friendly software, able to communicate effectively with superiors and those under me while also utilizing the skills I have developed in confidence, problem solving, critical thinking, and perseverance. Recently earned a certificate in Full-Stack Development from University of California, San Diego with newly learned skills in HTML, CSS, JavaScript, React.JS, and mySQL. Motivated to bring a unique thought process to problem-solving and anticipating problems that may not have been caught by others. I have two goals for each project that I am part of: to provide a positive experience to users and to make each project functional and easy-to-understand for all. For example, I collaborated with a team of two other developers to create an app to easily convert international and crypto currencies.</p>
-    </main>
-        </div>
-    </div>
 
+            <div class="bar flex">
+              <div class="bar fill" style="width:90%">
+                <div class="tag bold flex">HTML</div>
+              </div>
+              <span>90%</span>
             </div>
-        </div>
-    </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:80%">
+                <div class="tag bold flex">JavaScript</div>
+              </div>
+              <span>70%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:80%">
+                <div class="tag bold flex">React</div>
+              </div>
+              <span>50%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:50%">
+                <div class="tag bold flex">Angular</div>
+              </div>
+              <span>50%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:65%">
+                <div class="tag bold flex">Node.js</div>
+              </div>
+              <span>65%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:65%">
+                <div class="tag bold flex">Python</div>
+              </div>
+              <span>65%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:50%">
+                <div class="tag bold flex">mySQL</div>
+              </div>
+              <span>50%</span>
+            </div>
+          </div>
+    </section>
     
     <footer>Copyright</footer>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
