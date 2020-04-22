@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5{
 p {
 	color: #4A4E69;
 	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 section {
@@ -138,6 +138,12 @@ hr {
 	border: 2px solid #0099cc;
 	color: #0099cc;
 	border:0;
+}
+
+.footer{
+  text-align: center;
+  padding: 5px top;
+  
 }
 
 
