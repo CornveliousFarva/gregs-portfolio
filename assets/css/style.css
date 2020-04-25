@@ -13,7 +13,8 @@ p {
 section {
 	width:100%;
   margin: 40px 0;
-	padding: 0 5%;
+  padding: 0 5%;
+  background-color: gold;
 }
 
 .section-heading {
@@ -44,7 +45,8 @@ hr {
   background-size: cover;
   margin-bottom:100px;
   display: flex;
-  align-items: center
+  align-items: center;
+  background-color: green;
 }
 
 .header-col {
@@ -153,7 +155,7 @@ hr {
 }
 
 #technical-2{
-  background-color: dodgerblue
+  background-color: dodgerblue;
 }
 
 
