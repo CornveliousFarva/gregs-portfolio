@@ -18,7 +18,8 @@ section {
 	width:100%;
   margin: 40px 0;
   padding: 0 5%;
-  background-color: green;
+  background-color: dodgerblue;
+  color: burlywood
 }
 
 .section-heading {
@@ -55,12 +56,12 @@ a{
   margin-bottom:100px;
   display: flex;
   align-items: center;
-  background-color: green;
+  background-color: orange;
 }
 
 .header-col {
 	position: relative;
-  background: red;
+  background: saddlebrown;
   border-radius: 5px;
   box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
   bottom: -60px;
@@ -155,7 +156,7 @@ a{
 .footer{
   text-align: center;
   padding: 5px top;
-  background-color: red;
+  background-color: brown;
   color: gold;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -166,8 +167,8 @@ a{
 }
 
 #technical-2{
-  background-color: dodgerblue;
-  color: white;
+  background-color: aquamarine;
+  color: salmon;
 }
 
 .col-sm-3{
